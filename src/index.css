@@ -1,0 +1,85 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  /* align-content: center; */
+  text-align: center;
+}
+
+.quoteBox {
+  display: flex;
+  flex-direction: column;
+  gap: 8vh;
+  height: fit-content;
+  width: 60vw;
+  background-color: azure;
+  justify-items: center;
+  align-content: center;
+  box-shadow: 7px 7px 0px 0px black;
+  border: black 2px ridge;
+  padding: 35px;
+}
+
+.quote {
+  font-size: 1.5rem;
+}
+
+.author {
+  text-align: right;
+}
+
+.btn {
+  height: 10vh;
+  width: 10vh;
+  border-radius: 50%;
+  align-self: center;
+  /* justify-self: center; */
+}
+
+.img {
+  height: 80%;
+  width: 80%;
+}
+
+/* COLORS */
+
+.bc0 {
+  background-color: pink;
+  color: pink;
+}
+.bc1 {
+  background-color: coral;
+  color: coral;
+}
+.bc2 {
+  background-color: cadetblue;
+  color: cadetblue;
+}
+.bc3 {
+  background-color: yellowgreen ;
+  color: yellowgreen;
+}
+.bc4 {
+  background-color: gray;
+  color: gray;
+}
+
+.bc5 {
+  background-color: whitesmoke;
+}
