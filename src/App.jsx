@@ -14,7 +14,7 @@ const [color, setcolor] = useState(randomC)
 
 const goRandom = () => {
   const random = Math.floor(Math.random() * 102) ;
-  const randomC = Math.floor(Math.random() * 6) ;
+  const randomC = Math.floor(Math.random() * 10) ;
   setallRandom (random) ;
   setcolor (randomC)
 }

@@ -50,6 +50,11 @@ body {
   border-radius: 50%;
   align-self: center;
   /* justify-self: center; */
+  transition: all 0.1s ease-in-out;
+}
+
+.btn:active {
+  border: inset 10px black;
 }
 
 .img {
@@ -82,4 +87,24 @@ body {
 
 .bc5 {
   background-color: whitesmoke;
+}
+
+.bc6 {
+  background-color: red;
+  color: red;
+}
+
+.bc7 {
+  background-color: black;
+  color: black;
+}
+
+.bc8 {
+  background-color: aqua;
+  color: aqua;
+}
+
+.bc9 {
+  background-color: blueviolet;
+  color: blueviolet;
 }
